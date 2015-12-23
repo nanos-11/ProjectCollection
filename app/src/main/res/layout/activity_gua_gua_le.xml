@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.nan.projectcollection.GuaGuaLe">
+
+
+    <Button
+        android:id="@+id/lottery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击抽奖"/>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
